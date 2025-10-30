@@ -1,13 +1,13 @@
-import { ShieldCheck, Users, CalendarCheck2, Mail, FileCheck2, Workflow, Gauge, Lock } from "lucide-react";
+import { Shield, Users, Calendar, Mail, FileText, ListChecks, BarChart3, Lock } from "lucide-react";
 
 const features = [
-  { icon: ShieldCheck, title: "AI‑Powered Screening", desc: "Automatically evaluate candidates against job requirements with transparent scoring." },
-  { icon: FileCheck2, title: "Local CV Parsing", desc: "Parse PDFs and Word documents in the browser—no external APIs or vendor lock‑in." },
+  { icon: BarChart3, title: "AI‑Powered Screening", desc: "Automatically evaluate candidates against job requirements with transparent scoring." },
+  { icon: FileText, title: "Local CV Parsing", desc: "Parse PDFs and Word documents in the browser—no external APIs or vendor lock‑in." },
   { icon: Mail, title: "Email Automation", desc: "Send confirmations, rejections, interviews, and offers with branded templates." },
-  { icon: CalendarCheck2, title: "Interview Scheduling", desc: "Coordinate interviews with integrated calendar flows and reminders." },
-  { icon: Workflow, title: "Application Management", desc: "Track the entire candidate lifecycle with statuses and notes." },
+  { icon: Calendar, title: "Interview Scheduling", desc: "Coordinate interviews with integrated calendar flows and reminders." },
+  { icon: ListChecks, title: "Application Management", desc: "Track the entire candidate lifecycle with statuses and notes." },
   { icon: Users, title: "Role‑Based Access", desc: "Admin, HR, Interviewer, and Hiring Manager roles with least‑privilege access." },
-  { icon: Gauge, title: "Assessment Matrix", desc: "Structured evaluation criteria across skills, culture, and potential." },
+  { icon: Shield, title: "Assessment Matrix", desc: "Structured evaluation criteria across skills, culture, and potential." },
   { icon: Lock, title: "Privacy‑First", desc: "Data stays on the device during parsing. Export insights without raw CV data." },
 ];
 
